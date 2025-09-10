@@ -1,17 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Veganism is Sexy</title>
-    <link
-      rel="icon"
-      type="image/png"
-      href="https://static.vecteezy.com/system/resources/previews/012/101/367/non_2x/farm-animal-logo-vector.jpg"
-    />
+    <title>Dares Game</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <h1>Animals >>>>> Humans</h1>
+    <div class="container">
+        <!-- Home Page -->
+        <div id="home-page" class="page active">
+            <h1>Dares Game</h1>
+            <div class="input-section">
+                <div class="input-group">
+                    <label for="girl-name">Who's the girl?</label>
+                    <input type="text" id="girl-name" placeholder="Enter name">
+                </div>
+                <div class="input-group">
+                    <label for="boy-name">Who's her lucky boyfriend?</label>
+                    <input type="text" id="boy-name" placeholder="Enter name">
+                </div>
+                <button id="start-game" class="btn-primary">Enter Game</button>
+            </div>
+        </div>
+
+        <!-- Game Page -->
+        <div id="game-page" class="page">
+            <div class="score-board">
+                <div class="player-score">
+                    <span id="girl-score-name"></span>: <span id="girl-score">0</span>
+                </div>
+                <div class="player-score">
+                    <span id="boy-score-name"></span>: <span id="boy-score">0</span>
+                </div>
+            </div>
+
+            <div class="game-content">
+                <h2 id="current-player"></h2>
+                <div class="dare-section">
+                    <p class="dare-label">Your dare is:</p>
+                    <p id="current-dare" class="dare-text"></p>
+                </div>
+
+                <div class="action-buttons">
+                    <button id="nailed-it" class="btn-success">Nailed it! (+10)</button>
+                    <button id="massive-fail" class="btn-fail">Massive Fail! (-2)</button>
+                </div>
+
+                <button id="end-game" class="btn-secondary">End Game</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
+
 </html>
