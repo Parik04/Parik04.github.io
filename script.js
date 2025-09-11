@@ -63,6 +63,7 @@ let gameState = {
         "Pass a piece of chocolate or candy between your mouths without dropping it.",
         "Give your partner a back massage using only your elbows.",
         "Try to balance an ice cube or cold bottle on your body for 30 seconds while your partner watches.",
+        "Lick your partner's heatzones for a minute",
         "Text your partner a flirty or naughty message—even if they're right with you.",
         "Play strip rock-paper-scissors: loser removes an accessory or outer layer.",
         "Whisper your favorite pickup line into your partner's ear.",
